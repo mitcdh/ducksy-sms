@@ -51,6 +51,7 @@ void setup()
 }
 
 //Loop is simply reading, parsing, and deleting all sms
+//Using the 'R' case from adafruit's FonaTEST sketch
 void loop()
 {
   int8_t smsnum = fona.getNumSMS();
